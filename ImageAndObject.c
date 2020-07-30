@@ -12,38 +12,56 @@ int main()
 	// Ne tür bir değişim yapılacağını soralım.
 	printf("\n#=== Lütfen aşağıda belirtildiği gibi değişimin türünü seçiniz! ===#\n");
 	printf("'Resim koordinatlarından cisim koordinatlarının hesaplanması' için 1, \n");
-	printf("'Cisim koordinatlarından resim koordinatlarının hesaplanması' için 2, tuşlayınız: \n");
+	printf("'Cisim koordinatlarından resim koordinatlarının hesaplanması' için 2, tuşlayınız: ");
 	scanf("%d", &x);
 	//Resim Koordinatlarından Cisim Koordinatlarının Hesaplanması!
 	if (x == 1)
 	{
 			/// Bilinenleri isteyelim.
 		// xξp, yηp; Resim Koordinatları
-		scanf("xξp değerini giriniz: %lf\n", &xEp);
-		scanf("yηp değerini giriniz: %lf\n", &yNp);
+		printf("xξp değerini giriniz: ");
+		scanf("%lf", &xEp);
+		printf("yηp değerini giriniz: ");
+		scanf("%lf", &yNp);
 		// Zp; P noktasının yüksekliği
-		scanf("Zp değerini giriniz: %lf\n", &Zp);
+		printf("Zp değerini giriniz: ");
+		scanf("%lf", &Zp);
 		/* İç yöneltme elemanları; Bunlar uzaysal ışın demetinin izdüşüm merkezini resim düzlemine göre sabitlerler.
 		xξo, yηo; Resim ana noktasının resim koordinatları
 		f; Resim çekme makinesi sabiti */
-		scanf("xξo değerini giriniz: %lf\n", &xEo);
-		scanf("yηo değerini giriniz: %lf\n", &yNo);
-		scanf("f değerini giriniz: %lf\n", &f);
+		printf("xξo değerini giriniz: ");
+		scanf("%lf", &xEo);
+		printf("yηo değerini giriniz: ");
+		scanf("%lf", &yNo);
+		printf("f değerini giriniz: ");
+		scanf("%lf", &f);
 		/* Dış yöneltme elemanları; Bu elemanlar, resmin konumunun ve izdüşüm merkezinin yardımıyla uzaysal ışın demetini cisim koordinat sisteminde sabitlerler.
 		Xo, Yo, Zo; Resim Çekme Merkezinin Cisim Koordinatları
 		ω, φ, κ; Resmin üç dönmesi (Dönüklük Matrisi; r11, r12, r13, r21, r22, r23, r31, r32, r33) */
-		scanf("Xo değerini giriniz: %lf\n", &Xo);
-		scanf("Yo değerini giriniz: %lf\n", &Yo);
-		scanf("Zo değerini giriniz: %lf\n", &Zo);
-		scanf("r11 değerini giriniz: %lf\n", &r11);
-		scanf("r12 değerini giriniz: %lf\n", &r12);
-		scanf("r13 değerini giriniz: %lf\n", &r13);
-		scanf("r21 değerini giriniz: %lf\n", &r21);
-		scanf("r22 değerini giriniz: %lf\n", &r22);
-		scanf("r23 değerini giriniz: %lf\n", &r23);
-		scanf("r31 değerini giriniz: %lf\n", &r31);
-		scanf("r32 değerini giriniz: %lf\n", &r32);
-		scanf("r33 değerini giriniz: %lf\n", &r33);
+		printf("Xo değerini giriniz: ");
+		scanf("%lf", &Xo);
+		printf("Yo değerini giriniz: ");
+		scanf("%lf", &Yo);
+		printf("Zo değerini giriniz: ");
+		scanf("%lf", &Zo);
+		printf("r11 değerini giriniz: ");
+		scanf("%lf", &r11);
+		printf("r12 değerini giriniz: ");
+		scanf("%lf", &r12);
+		printf("r13 değerini giriniz: ");
+		scanf("%lf", &r13);
+		printf("r21 değerini giriniz: ");
+		scanf("%lf", &r21);
+		printf("r22 değerini giriniz: ");
+		scanf("%lf", &r22);
+		printf("r23 değerini giriniz: ");
+		scanf("%lf", &r23);
+		printf("r31 değerini giriniz: ");
+		scanf("%lf", &r31);
+		printf("r32 değerini giriniz: ");
+		scanf("%lf", &r32);
+		printf("r33 değerini giriniz: ");
+		scanf("%lf", &r33);
 		/* NOT: Toplam olarak iç yöneltme ve dış yöneltme elemanları olan 9 parametre merkezi iz düşürülmüş resmi tanımlarlar. */
 
 		// Bilinmeyenlerin hesaplanması.
