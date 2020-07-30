@@ -13,7 +13,7 @@ Bir cisim noktası P’nin XYZ koordinatları ile bu noktanın P’ resim noktas
 + İç yöneltme elemanları; xξo, yηo, f
 + Dış yöneltme elemanları; Xo, Yo, Zo, ω, φ, κ; Resmin üç dönmesi (Dönüklük Matrisi; r11, r12, r13, r21, r22, r23, r31, r32, r33)
 
-*Yukarıdaki değerlerin girilmesi gerekmektedir.*
+*Değerlerinin girilmesi gerekmektedir.*
 
 - [ ] Cisim koordinatlarından resim koordinatlarının hesaplanması için,
 
@@ -21,4 +21,4 @@ Bir cisim noktası P’nin XYZ koordinatları ile bu noktanın P’ resim noktas
 + İç yöneltme elemanları; xξo, yηo, f
 + Dış yöneltme elemanları; Xo, Yo, Zo, ω, φ, κ; Resmin üç dönmesi (Dönüklük Matrisi; r11, r12, r13, r21, r22, r23, r31, r32, r33)
 
-*Yukarıdaki değerlerin girilmesi gerekmektedir.*
+*Değerlerinin girilmesi gerekmektedir.*
