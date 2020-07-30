@@ -6,7 +6,7 @@ Bir cisim noktası P’nin XYZ koordinatları ile bu noktanın P’ resim noktas
 
 **Kullanım Rehberi;**
 
-1.Resim koordinatlarından cisim koordinatlarının hesaplanması için,
+- [ ] Resim koordinatlarından cisim koordinatlarının hesaplanması için,
 
 + xξp, yηp; Resim koordinatları
 + Zp; P noktasının yüksekliği
@@ -15,7 +15,7 @@ Bir cisim noktası P’nin XYZ koordinatları ile bu noktanın P’ resim noktas
 
 Yukarıdaki değerlerin girilmesi gerekmektedir.
 
-2. Cisim koordinatlarından resim koordinatlarının hesaplanması için,
+- [ ] Cisim koordinatlarından resim koordinatlarının hesaplanması için,
 
 + Xp, Yp, Zp; P noktasının cisim koordinatları
 + İç yöneltme elemanları; xξo, yηo, f
