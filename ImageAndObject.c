@@ -6,7 +6,7 @@ int main()
 {
 	setlocale(LC_ALL, "Turkish");
 
-	int x, y;
+	int x;
 	double xEp, yNp, Zp, xEo, yNo, f, Xo, Yo, Zo, r11, r12, r13, r21, r22, r23, r31, r32, r33, Xp, Yp;
 
 	// Ne tür bir değişim yapılacağını soralım.
@@ -74,7 +74,7 @@ int main()
 		printf("Yp değeri: %f\n", Yp);
 	}
 	// Cisim koordinatlarından resim koordinatlarının hesaplanması!
-	else if (y == 2)
+	else if (x == 2)
 	{
 			/// Bilinenleri isteyelim.
 		//Xp, Yp, Zp; P noktasının Cisim Koordinatları
