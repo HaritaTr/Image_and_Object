@@ -7,7 +7,7 @@ int main()
 	setlocale(LC_ALL, "Turkish");
 
 	int x, y;
-	double xEp, yNp, Zp, xEo, yNo, f, Xo, Yo, Zo, r11, r12, r13, r21, r22, r23, r31, r32, r33;
+	double xEp, yNp, Zp, xEo, yNo, f, Xo, Yo, Zo, r11, r12, r13, r21, r22, r23, r31, r32, r33, Xp, Yp;
 
 	// Ne tür bir değişim yapılacağını soralım.
 	printf("\n#=== Lütfen aşağıda belirtildiği gibi değişimin türünü seçiniz! ===#\n");
@@ -65,9 +65,14 @@ int main()
 		/* NOT: Toplam olarak iç yöneltme ve dış yöneltme elemanları olan 9 parametre merkezi iz düşürülmüş resmi tanımlarlar. */
 
 		// Bilinmeyenlerin hesaplanması.
+		printf("\n\t=== Hesap sonuçları! === \n");
 		/* Cisim koordinatlarının hesaplanması
 		Xp = Xo + ((Zp - Zo) * ((r11 * (xEp - xEo) + r12 * (yNp - yNo) - r13 * f) / (r31 * (xEp - xEo) + r32 * (yNp - yNo) - r33 * f)));
 		Yp = Yo + ((Zp - Zo) * ((r21 * (xEp - xEo) + r22 * (yNp - yNo) - r23 * f) / (r31 * (xEp - xEo) + r32 * (yNp - yNo) - r33 * f))); */
+		Xp = Xo + ((Zp - Zo) * ((r11 * (xEp - xEo) + r12 * (yNp - yNo) - r13 * f) / (r31 * (xEp - xEo) + r32 * (yNp - yNo) - r33 * f)));
+		Yp = Yo + ((Zp - Zo) * ((r21 * (xEp - xEo) + r22 * (yNp - yNo) - r23 * f) / (r31 * (xEp - xEo) + r32 * (yNp - yNo) - r33 * f)));
+		printf("Xp değeri: %f\n", Xp);
+		printf("Yp değeri: %f\n", Yp);
 	}
 
 	return 0;
