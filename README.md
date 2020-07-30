@@ -1,4 +1,4 @@
-# Fotogrametride Resim ve Cisim Koordinatları arası dönüşüm
+# Fotogrametride resim ve cisim koordinatları arası dönüşüm
 
 **Amaç**;
 
